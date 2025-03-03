@@ -107,3 +107,5 @@ def main():
                 'output_size': 102,
                 'state_dict': model.state_dict()}
   torch.save(checkpoint, in_arg.save_dir + 'train_checkpoint.pth')
+if __name__ = "__main__":
+  main()
